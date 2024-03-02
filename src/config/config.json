@@ -1,0 +1,37 @@
+{
+    "development": {
+      "database": "csye6225",
+      "username": "csye6225",
+      "password": "cheetos123456",
+      "pool": { 
+        "max": 30, 
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": "root",
+      "port": "3306",
+      "database": "csye6225",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "database": "csye6225",
+      "username": "csye6225",
+      "password": "cheetos123456",
+      "port": "3306",
+      "host": "csye6225.cwk4k713kt9k.us-east-1.rds.amazonaws.com",
+      "dialect": "mysql",
+      "dialectOptions": {
+        "ssl": "Amazon RDS",
+        "connectTimeout": 60000
+      },
+      "pool": { 
+        "maxConnections": 5, 
+        "maxIdleTime": 30
+      }
+    }
+  }
