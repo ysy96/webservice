@@ -2,9 +2,11 @@
 This is the backend code for a cloud native user management system implemented using Node.js, deployed on AWS for reliability and scalability.
 
 ## Infrastructure
+IoC using Cloud Formation
 https://github.com/ysy96/infrastructure
 
 ## Serverless
+Lambda function used to send emails to user
 https://github.com/ysy96/serverless
 
 ### Prerequisites
