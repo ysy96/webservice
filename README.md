@@ -1,4 +1,5 @@
 # webservice
+This is the backend code for a cloud native user management system implemented using Node.js, deployed on AWS for reliability and scalability.
 
 ## Infrastructure
 https://github.com/ysy96/infrastructure
