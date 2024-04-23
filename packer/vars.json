@@ -3,10 +3,10 @@
     "aws_secret_key": "",
     "aws_region": "us-east-1",
     "subnet_id": "subnet-b550c9d3",
-    "source_ami": "ami-033b95fb8079dc481",
+    "source_ami": "ami-xxxxxxxxx",
     "ssh_username": "ec2-user",
     "instance_type": "t2.micro",
-    "ami_users_dev": "428761764121",
-    "ami_users_prod": "284018978494",
-    "ami_users_demo": "893808858746"
+    "ami_users_dev": "xxxxxxx",
+    "ami_users_prod": "xxxxxxx",
+    "ami_users_demo": "xxxxxxxxx"
 }
